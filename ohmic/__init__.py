@@ -7,7 +7,6 @@
 135
 >>> stats['mean_power']
 4.5
->>> np.mean(wf)
 
 
 
