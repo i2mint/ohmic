@@ -18,8 +18,8 @@ import numpy as np
 def power_quality_stats(wf):
     """Compute power quality statistics from a waveform."""
     return {
-        'total_power': sum(wf), 
-        'mean_power': np.mean(wf), 
+        'total_power': sum(wf),
+        'mean_power': np.mean(wf),
         'std_power': np.std(wf),
         'max_power': np.max(wf),
         'min_power': np.min(wf),
