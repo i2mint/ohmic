@@ -70,15 +70,15 @@ def power_factor(true_power, apparent_power):
 # Function to calculate Total Harmonic Distortion (THD) for Voltage
 def voltage_thd(voltage_harmonics):
     fundamental_voltage = voltage_harmonics[0]
-    harmonics_squared = sum([v**2 for v in voltage_harmonics[1:]])
-    return (harmonics_squared**0.5) / fundamental_voltage
+    harmonics_squared = sum([v ** 2 for v in voltage_harmonics[1:]])
+    return (harmonics_squared ** 0.5) / fundamental_voltage
 
 
 # Function to calculate Total Harmonic Distortion (THD) for Current
 def current_thd(current_harmonics):
     fundamental_current = current_harmonics[0]
-    harmonics_squared = sum([i**2 for i in current_harmonics[1:]])
-    return (harmonics_squared**0.5) / fundamental_current
+    harmonics_squared = sum([i ** 2 for i in current_harmonics[1:]])
+    return (harmonics_squared ** 0.5) / fundamental_current
 
 
 # Function to calculate Voltage Unbalance Factor (VUF)
@@ -95,7 +95,7 @@ def current_unbalance_factor(positive_seq_current, negative_seq_current):
 def flicker_pst(voltage_changes, time_period=10):
     # voltage_changes should be an array of changes in voltage
     # Time period generally taken as 10 mins (in minutes)
-    voltage_changes_squared = sum([v**2 for v in voltage_changes])
+    voltage_changes_squared = sum([v ** 2 for v in voltage_changes])
     return (voltage_changes_squared / time_period) ** 0.5
 
 
@@ -121,12 +121,12 @@ vuf = voltage_unbalance_factor(positive_seq_voltage, negative_seq_voltage)
 iuf = current_unbalance_factor(positive_seq_current, negative_seq_current)
 pst = flicker_pst(voltage_changes)
 
-print("True Power: {}W".format(tp))
-print("Apparent Power: {}VA".format(ap))
-print("Reactive Power: {}VAR".format(rp))
-print("Power Factor: {}".format(pf))
-print("Voltage THD: {}".format(v_thd))
-print("Current THD: {}".format(c_thd))
-print("Voltage Unbalance Factor: {}%".format(vuf))
-print("Current Unbalance Factor: {}%".format(iuf))
-print("Flicker (Pst): {}".format(pst))
+print('True Power: {}W'.format(tp))
+print('Apparent Power: {}VA'.format(ap))
+print('Reactive Power: {}VAR'.format(rp))
+print('Power Factor: {}'.format(pf))
+print('Voltage THD: {}'.format(v_thd))
+print('Current THD: {}'.format(c_thd))
+print('Voltage Unbalance Factor: {}%'.format(vuf))
+print('Current Unbalance Factor: {}%'.format(iuf))
+print('Flicker (Pst): {}'.format(pst))
