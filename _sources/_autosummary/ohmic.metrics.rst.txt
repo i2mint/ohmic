@@ -1,0 +1,20 @@
+ohmic.metrics
+=============
+
+.. automodule:: ohmic.metrics
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      apparent_power
+      current_thd
+      current_unbalance_factor
+      flicker_pst
+      power_factor
+      reactive_power
+      true_power
+      voltage_thd
+      voltage_unbalance_factor
+   

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-11-22T22:31:41Z",
+  "package": {
+    "name": "ohmic",
+    "version": "0.1.2",
+    "display_name": "ohmic",
+    "source": "pyproject.toml"
+  },
+  "git": {
+    "available": true,
+    "commit": "17a3a798064f554a6f7f52c787e56de1c243b286",
+    "short_commit": "17a3a79",
+    "branch": "master",
+    "tags": [],
+    "dirty": false,
+    "remote_url": "https://github.com/i2mint/ohmic",
+    "commit_url": "https://github.com/i2mint/ohmic/commit/17a3a798064f554a6f7f52c787e56de1c243b286",
+    "error": null
+  },
+  "ci": {
+    "provider": "github",
+    "repository": "i2mint/ohmic",
+    "sha": "17a3a798064f554a6f7f52c787e56de1c243b286",
+    "sha_in_history": true,
+    "ref": "refs/heads/master",
+    "ref_name": "master",
+    "run_id": "45078070605",
+    "run_url": "https://github.com/i2mint/ohmic/actions/runs/45078070605",
+    "server_url": "https://github.com"
+  },
+  "tools": {
+    "epythet": "0.2.23",
+    "sphinx": "9.1.1",
+    "docutils": "0.22.4",
+    "python": "3.12.16"
+  },
+  "config": {
+    "theme": "auto",
+    "html_theme": "pydata_sphinx_theme",
+    "accent": "#93342c",
+    "mode": "auto",
+    "api_generator": "autosummary",
+    "ignore": [
+      "tests/",
+      "scrap/",
+      "examples/"
+    ],
+    "agent_outputs": true,
+    "aggregates": [
+      "md"
+    ],
+    "ai_artifacts": true,
+    "provenance": true,
+    "docs_dir": "docsrc"
+  },
+  "site": {
+    "modules_documented": 2,
+    "objects_documented": 1
+  },
+  "pypi": {
+    "checked": true,
+    "latest": "0.1.2",
+    "relation": "same",
+    "error": null
+  },
+  "reproduce": "git clone https://github.com/i2mint/ohmic && cd ohmic\ngit checkout 17a3a798064f554a6f7f52c787e56de1c243b286\npip install \"epythet==0.2.23\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "warnings": [],
+  "alignment": {
+    "aligned": true,
+    "notes": []
+  }
+}

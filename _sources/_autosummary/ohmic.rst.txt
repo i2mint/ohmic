@@ -1,0 +1,19 @@
+﻿ohmic
+=====
+
+.. automodule:: ohmic
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      power_quality_stats
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   metrics

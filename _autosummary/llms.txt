@@ -1,0 +1,13 @@
+# ohmic
+
+> Python tools for Electric Power Quality
+
+
+## Pages in this subsection
+
+- [ohmic](ohmic.html.md): Tools for Electrical Power Quality Analysis.
+- [ohmic.metrics](ohmic.metrics.html.md): Example usage:
+
+## Optional
+
+- [Top-level llms.txt](../llms.txt): Complete documentation index.
