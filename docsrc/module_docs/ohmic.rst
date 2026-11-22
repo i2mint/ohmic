@@ -1,4 +1,0 @@
-ohmic
-=====
-.. automodule:: ohmic
-   :members:
