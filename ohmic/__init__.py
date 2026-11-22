@@ -5,7 +5,7 @@
 >>> stats = power_quality_stats(wf)
 >>> stats['total_power']
 135
->>> stats['mean_power']
+>>> float(stats['mean_power'])
 4.5
 
 
